@@ -1,0 +1,57 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyAbstractClassInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="pytz" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="projects.models.Step.objects" />
+          <option value="accounts.models.Organization.objects" />
+          <option value="projects.models.Location.objects" />
+          <option value="projects.models.StepOrder.objects" />
+          <option value="projects.models.StepForm.objects" />
+          <option value="projects.models.StepComment.*" />
+          <option value="projects.models.FormTemplate.*" />
+          <option value="projects.models.Project.*" />
+          <option value="core.models.File.*" />
+          <option value="rest_framework.authtoken.models.Token.*" />
+          <option value="accounts.models.UserPasswordResetCode.*" />
+          <option value="traceability.models.StageJeevesOLH.*" />
+          <option value="traceability.models.ESL.*" />
+          <option value="traceability.models.Jeeves.*" />
+          <option value="core.models.CountryCode.*" />
+          <option value="core.models.Country.*" />
+          <option value="projects.models.Step.*" />
+          <option value="django.db.models.fields.related.ForeignKey.*" />
+          <option value="django.db.models.fields.related.ManyToManyField.*" />
+          <option value="django.contrib.auth.models.Group.*" />
+          <option value="customers.models.Customer.*" />
+          <option value="products.models.Product.*" />
+          <option value="points.models.Country.*" />
+          <option value="core.models.PricerCompany.*" />
+          <option value="tickets.models.Ticket.*" />
+          <option value="returns.models.Return.*" />
+          <option value="points.models.DeliveryPoint.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
